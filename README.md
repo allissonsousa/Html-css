@@ -1,3 +1,3 @@
 # Html-css
  Estudos de HTML5 e CSS3. 
- Estes são os primeiros exerícios de HTML e CSS que eu fiz, também, é o meu primeiro contato comm qualquer linguagem de desenvolvimento web.
+ Estes são os primeiros exerícios de HTML e CSS que eu fiz, e também, meu primeiro contato com qualquer linguagem de desenvolvimento web.
