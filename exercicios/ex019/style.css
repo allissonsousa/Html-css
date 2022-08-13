@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*id = # (um elemento por id) 
+class = . (podem varios elementos com mesmo class) 
+*/
+
+body {
+    background-color: rgb(153, 235, 235);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: rgb(36, 136, 136);
+}
+#main {
+    text-align: center;
+    background-color:rgb(36, 136, 136) ;
+    color: white;
+}
+h2 {
+    color: rgb(14, 73, 73);
+}
+.fácil {
+    background-color: aqua;
+    color:azure;
+}
+.normal {
+    background-color: rgb(31, 60, 155);
+    color: aquamarine;
+}
+.dificil {
+    background-color: rgb(78, 8, 95);
+    color: aquamarine;
+}
+.feio {
+    font-style: italic;
+}
+.teste {
+    text-decoration: underline;
+}

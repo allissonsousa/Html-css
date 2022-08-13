@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadasdiferença</h2>
+    <p>A ordem faz diferença &lt;ol&gt;</p>
+    <ol type="1" start="1"><!--Type="A" sequencia nomeada por A B C etc. Type="a" mesma coisa porem minusculo a b c etc.Type="I" ordem em números romanos I II III IV etc--. Type="i" mesmo que (a), romanos em minusculo. ADENDO:start usado somente em sequencias numéricas-->
+        <li>Acordar</li>
+        <li>Comer</li>
+        <li>Cagar</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <p>Ordem não importa</p>
+    <ul type="circle"><!-- Type="square" deixa a marcação em quadradinhos,Type="circle" marcação com pequenos circulos, Type="disc" deixa marcação de bolinhas-->
+        <li>arroz</li>
+        <li>tutu</li>
+        <li>tomate</li>
+        <li>sabão</li>
+    </ul>
+    <h2>Juntando listas ex: Minhas linguagens favoritas</h2>
+    <ol>
+        <li>antigas</li><!--fazer uma coisa dentro de outra como nesse exemplo é conhecido por aninhamento-->
+        <ol type="a">
+            <li>cliper</li>
+            <li>fortran</li>
+            <li>delphi</li>
+            <li>visual basic</li>
+        </ol>
+        <li>novas</li>
+        <ol type="a" start="5">
+            <li>php</li>
+            <li>python</li>
+            <li>JavaScript</li>
+            <li>kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>nintendo</li>
+        <ul type="square">
+            <li>mario bros</li>
+            <ul type="circle">
+                <li>mario bros 3</li>
+                <li>mario lost levels</li>
+            </ul>
+            <li>ninja gaiden</li>
+        </ul >
+        <li>supernintendo</li>
+        <ul type="square">
+            <li>mario</li>
+            <li>donkey kong</li>
+        </ul>
+        <li>playstation</li>
+        <ul type="square">
+            <li>final fantasy</li>
+            <li>castlevania</li>
+        </ul>
+    </ol>
+    <!--DICA: usar alt gr para deixar o cursor do mouse em varios lugares ao mesmo tempo, assim voce pode escrever ou apagar a mesma coisa em linhas diferentes ao mesmo tempo-->
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação do conteudo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site</dd>
+        <dt>JavaScritp</dt>
+        <dd>Linguagem de programação para a criação de interatividade em um site</dd>
+    </dl>
+</body>
+</html>

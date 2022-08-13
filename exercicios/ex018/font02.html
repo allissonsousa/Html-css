@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'happy';
+            src: url('American\ Captain.otf') format('opentype'),url('American\ Captain.ttf') format('-truetype');
+            /*tipos de format
+            -opentype (otf)
+            -truetype (ttf)
+            -embedded-opentype
+            -truetype-at (apple advanced)
+            -typography
+            -svg
+            */
+        }
+        body {
+            font-family: Arial;
+        }
+        h1 {
+            font: normal normal 2em 'happy';
+        }
+    </style>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus error excepturi esse, corrupti eveniet qui, debitis accusantium possimus itaque ratione, facilis reprehenderit autem ad veniam quaerat necessitatibus. Earum, assumenda labore.</p>
+</head>
+<body>
+    
+</body>
+</html>

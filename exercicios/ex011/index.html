@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio imagem flexivel</title>
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <p>Tentando colorar imagens flexiveis <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, provident adipisci non quisquam tenetur neque esse unde, consequuntur placeat at necessitatibus veritatis molestiae a itaque aperiam corporis, cumque quia inventore.</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img media="(max-width: 1300px)" src="imagens/foto-g.png" alt="paisagem img">
+    </picture>
+    <h1>Vamos aprender a reproduzir audio</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/We Made It - Reed Mathis.mp3" type="audio/mpeg">
+        <p>infelizmente o audio nao funfou</p>
+    </audio><!--compativel mp3 wav ogg-->
+</body>
+</html>

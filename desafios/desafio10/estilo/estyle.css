@@ -1,0 +1,150 @@
+@charset "utf-8";
+@font-face { 
+    font-family: 'Love';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+#text-element {
+    font-family: 'android', Arial, sans-serif;
+  }
+header {
+    margin: -2%;
+    padding-bottom: 0;
+    margin-right: 0;
+}
+
+div > h1 {
+    padding-top: 40px;
+}
+div.cabeça {
+    background-image: linear-gradient(180deg, rgb(100, 179, 124), rgb(28, 107, 51), rgb(19, 63, 32)
+    );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    height: 220px;
+    padding-left: 10px;
+}
+div.cabeça > p {
+    font-weight: normal;
+    height: 30px;
+    margin-top: 30px;
+    padding: 0%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+nav > a {
+    padding: 5px 15px 5px 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav {
+    background-color:  rgb(19, 63, 32);
+    padding-left: 7px;
+    padding-bottom: 3px;
+    margin-bottom: 2px;
+    padding-top: 4px;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 0;
+    padding-right: 0;
+    block-size: 80%;
+    
+}
+main > article {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 0;
+    border-left: 0;
+    padding-bottom: 10px;
+}
+main {
+    padding-top: 0px;
+    background-color: lightblue;
+    margin-right: 0;
+    }
+nav > a:hover{
+    background-color: rgb(118, 196, 142);
+}
+aside#texto {
+    margin-left: 20px;
+}
+aside >  h2 {
+    font-family: 'Love';
+    background-image: linear-gradient(90deg, lightblue, white);
+    color: rgb(28, 107, 51);
+}
+article {
+    padding-top: 10px;
+}
+aside > h1 {
+    font-family: 'Love';
+    color: rgb(28, 107, 51);
+    font-size: 24pt;
+}
+aside.video {
+    background-color: rgb(19, 63, 32);
+    width:100%;
+}
+aside > video {
+    margin: 5%;
+}
+aside.caixa {
+    background-color: lightgrey;
+    border-radius: 0px 0px 15px 15px;
+    margin: 0px 10px 10px 10px;
+    padding: 7px;
+}
+h3 {
+    background-color: rgb(100, 179, 124);
+    margin: 10px 10px 0px 10px;
+    border-radius: 15px 15px 0px 0px;
+    padding-left: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+}
+aside > div.linha {
+    display: inline-block;
+    margin-right: 100px;
+}
+ a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+a.link::after {
+    content: '🔗';
+    margin-left: 2px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    list-style: none;
+}
+li {
+    position: relative;
+    margin-left: 10px;
+}
+li > a {
+    color: black;
+}
+li:before {
+    content: '☑';
+    padding: 5px 15px;
+    color: green;
+}
+footer {
+    background-color: rgb(19, 63, 32);
+    padding: 2px;
+    color: white;
+    font-weight: bold;
+}

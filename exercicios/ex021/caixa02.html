@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: #08C263;
+            font-family: sans-serif;
+            margin: 0;
+        }
+        header {
+            background-image: linear-gradient(90deg ,#2e6e03, #81e089 );
+            margin: 0;
+            padding: 6px;
+            text-align: center;
+        }
+        nav {
+            background-color: aliceblue;
+            margin: 0%;
+            padding: 3px;
+            text-align: left;
+            font-weight: bold;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+        }
+        h1 {
+            color: white;
+            text-decoration: underline;
+        }
+        aside > h2 { 
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.473);
+        }
+        nav > a:hover {
+            color: red;
+        }
+        footer > p {
+            padding: 0px;
+            margin: 0;
+        }
+        footer {
+            color: white;
+            background-color: #747D24;
+            padding: 3px;
+        }
+        main {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        aside {
+            margin: 5px;
+            background-color: #058073;
+            padding:2px;
+            border-radius: 0px 0px 10px 10px ;
+            color: white;
+        }
+        aside.cima {
+            border-radius: 10px 10px 0px 0px ;
+        }
+        div#bola {
+            text-align: center;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: white;
+        }
+        div > p {
+            padding-top: 38px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEU SITE</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <aside class="cima">
+                    <h2>Brasoikfpokjdlgkd
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam corrupti voluptatum aspernatur! Veniam suscipit consequuntur doloribus quae beatae ab repudiandae nisi autem eum. Nisi perspiciatis ratione nulla tempore eos!</p>
+                </aside>
+                <aside>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam corrupti voluptatum aspernatur! Veniam suscipit consequuntur doloribus quae beatae ab repudiandae nisi autem eum. Nisi perspiciatis ratione nulla tempore eos!</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por alinho</p>
+    </footer>
+    <div id="bola">
+        <p>sus</p>
+    </div>
+</body>
+</html>
