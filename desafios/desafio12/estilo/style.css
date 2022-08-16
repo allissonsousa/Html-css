@@ -30,6 +30,7 @@ header p {
 }
 pre {
     margin: 40px;
+    margin-right: 0;
     font-family: 'Sriracha', cursive;
     padding: 40px 20px;
 }
