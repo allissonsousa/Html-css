@@ -4,6 +4,7 @@
 body {
     font-size: 40pt;
     font-weight: normal;
+    width: 100%;
 }
 *{
     margin: 0;
