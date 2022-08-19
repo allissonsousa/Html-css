@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        #job {
+            background-color: rgb(201, 201, 201);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabela</h1>
+    <table>
+        <colgroup>
+            <!-- 
+                Se quiser fazer configuração pra duas colunas ao mesmo tempo, é so apagar um col e usar span em um dos cols para dizer a quantidades de coluna que ele vale ex: <col id="age" span="2"> logo as configurações da coluna age vai valer por ela e por job
+             -->
+            <col id="name">
+            <col id="s">
+            <col id="age">
+            <col id="job">
+        </colgroup>
+        <caption>CADASTRO</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>12</td>
+            <td>Ladrão</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>67</td>
+            <td>Aposentada</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>15</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Marcos</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Empresario</td>
+        </tr>
+        <tr>
+            <td>Marcia</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Rafael</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Jornalista</td>
+        </tr>
+    </table>
+</body>
+</html>
