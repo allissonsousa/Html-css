@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte / Pré formatação</h2>
+    <p>O comando <code>document.getElementById</code> (teste) é escrito em JavaScript</p>
+    <!--ffonte mono espaçada-->
+    <p>Outra formatação interessante é a tag &lt;pre&gt; que permite que você mantenha a quebra de linha que voce
+        escreveu no seu código.
+    </p>
+    <p>Exemplo: </p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+    print(f'O número {num} é Par')
+    else:
+    print(f'O número {num} é Impar')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <!--dica: usar shift+tab para apagar os espaços indesejados no inicio de linha, e tab para adicionar espaços no inicio de linha XD-->
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
+    <!-- q é usado para fazer citações de forma mais semantica doque apenas digitando ""-->
+    <h2>Citações completas</h2>
+    <p>Veja a seguir citações encontradas na wikipedia sobre os livros de Harry Potter:</p>
+    <blockquote cite="https://pt.wikipedia.org/wiki/Harry_Potter">
+        Harry Potter é uma série de sete romances de fantasia escrita pela autora britânica J. K. Rowling. A série narra
+        as aventuras de um jovem chamado Harry James Potter, que descobre aos 11 anos de idade que é um bruxo ao ser
+        convidado para estudar na Escola de Magia e Bruxaria de Hogwarts. O arco de história principal diz respeito às
+        amizades de Harry com outros bruxos de sua idade
+    </blockquote>
+    <!--Blockquote alem de dar uma margin horizontal na esquerda do texto, tem sebtido semantico de que isso é uma citação seja de um autor ou outro site. Blockquote cite=""serve para adicionar o link do tal site e relacionar sua pagina com as pesquisas de buscas do google ou outro navegador sobre o assunto -->
+    <h2>Abreviações</h2>
+    <p>Abreviações podem ser feitas usando a tag &lt;abbr&gt;</p>
+    <p>Estou estudando <abbr title="Hyper Text Markup">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.
+        Estou adorando.</p>
+    <h2>Texto invertido kkk</h2>
+    <p><bdo dir="rtl">Essa merda não serve pra basicamente nada kkk</bdo></p>
+</body>
+
+</html>
